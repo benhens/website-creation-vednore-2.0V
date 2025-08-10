@@ -1,0 +1,35 @@
+{
+  "name": "rofaria-real-estate",
+  "version": "1.0.0",
+  "description": "Premium Real Estate Platform - A comprehensive real estate website with property listings, search functionality, and modern design",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx http-server -p 3000 -c-1",
+    "start": "npx http-server -p 8080 -c-1",
+    "build": "echo 'Static site - no build process needed'",
+    "serve": "npx http-server -p 3000 -c-1"
+  },
+  "keywords": [
+    "real-estate",
+    "property",
+    "listings",
+    "html",
+    "css",
+    "javascript",
+    "responsive",
+    "bootstrap"
+  ],
+  "author": "Rofaria Real Estate",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rofaria/real-estate-website"
+  },
+  "homepage": "https://rofaria.com",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
